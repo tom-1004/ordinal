@@ -1206,3 +1206,53 @@ textarea:focus {
         display: none;
     }
 }
+
+
+/* DONATE PAGE */
+.modal {
+    
+}
+.modal-content {
+    text-align: center !important;
+    background-color: #000;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+.modal-header {
+    border: none;
+    text-align: center;
+}
+.header h1 {
+    text-align: center !important;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 600;
+}
+.modal-footer {
+    border: none !important;
+}
+
+.modal-bottom p {
+    font-weight: 700;
+    color: #fff;
+}
+
+.modal-bottom button {
+    border: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 14px;
+    background-color: inherit;
+}
+
+@media screen and (max-width: 768px) {
+    .modal-bottom p:nth-child(2) {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .modal-bottom p:nth-child(1) {
+        display: none;
+    }
+}
