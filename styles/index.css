@@ -1063,12 +1063,14 @@ body {
     background-color: red;
 }
 
-.main-content-top p {
+.main-content-top button {
     color: #667085;
     font-size: 14px;
     font-weight: 600;
     line-height: 20px;
-    margin-top: 13px;
+    /* margin-top: 13px; */
+    border: none;
+    background-color: inherit;
 
 }
 
