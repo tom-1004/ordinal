@@ -1218,7 +1218,7 @@ textarea:focus {
     padding-right: 4rem;
     background-color: #ffffff;
     color: #000000;
-    border-radius: 8px;
+    border-radius: 6px;
     border: none;
     font-size: 20px;
     font-weight: 600;
@@ -1226,6 +1226,12 @@ textarea:focus {
     cursor: pointer;
     text-decoration: none;
 }
+
+.donate-btn:active,
+.donate-btn:focus {
+    border-radius: 6px;
+}
+
 .modal-content {
     text-align: center !important;
     background-color: #000;
