@@ -1173,7 +1173,7 @@ textarea:focus {
     font-size: 16px;
     line-height: 24px;
     font-weight: 600;
-    padding: 10px 18px;
+    padding: 10px 18px !important;
     border: none;
     cursor: pointer;
     text-decoration: none;
@@ -1199,4 +1199,10 @@ textarea:focus {
     height: 4rem;
     width: 4rem;
     margin-top: 5rem;
+}
+
+@media screen and (min-width: 374px) and (max-width: 376px) {
+    .line-5:nth-child(2) {
+        display: none;
+    }
 }
