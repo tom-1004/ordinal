@@ -1,4 +1,4 @@
-let text = document.getElementById('myText').innerHTML;
+let text = document.getElementById('myText2').innerHTML;
   const copyContent = async () => {
     try {
       await navigator.clipboard.writeText(text);
